@@ -1,0 +1,53 @@
+body {
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 600px;
+  margin: 0 auto;
+  border: 10px solid black;
+  padding: 20px;
+}
+
+.sun {
+  width: 500px;
+  position: relative;
+  left: 0;
+  margin-left: 15%;
+  transform: scale(1.5);
+}
+
+.sun-color {
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  -webkit-mask-image: url(star-small.png);
+}
+
+.velocity-container {
+  margin-top: 100px;
+}
+
+.velocity-text {
+  margin-right: 5px;
+}
+
+.velocity-input {
+  width: 50px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.velocity-slider {
+  display: inline-block;
+  width: 300px;
+  margin-left: 20px;
+}
+
+.velocity-slider > span:hover {
+  cursor: pointer;
+}
+
