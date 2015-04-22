@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Doppler Effect</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+  <link rel="stylesheet" href="jquery-ui-theme.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="sun">
+      <img class="sun-img" src="star-small.png">
+      <div class="sun-color"></div>
+    </div>
+    <div class="velocity-container">
+      <span class="velocity-text">Velocity (km/s)</span>
+      <input class="velocity-input" type="number" name="velocity" value="0.0" step="1" min="-100" max="100">
+      <div class="velocity-slider"></div>
+    </div>
+  </div>
+
+  <script src="jquery.js"></script>
+  <script src="jquery-ui.js"></script>
+  <script src="js.js"></script>
+
+</body>
+</html>
